@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary : #1a253f;
+    --dark : #151A33;
+    --secondary : #2b55cc;
+    --info: #4d79f6;
+    --ternary : #848db3;
+    --pure : #eff2f9;
+    --fade : #7081b9;
+    --mild : #8997bd;
+    --footer: #212A4A;
+    --black: #060b1b;
+    --twitter: #4ac7ec;
+    --dribbble:#ff5da0;
+    --success: #1ecab8;
+    --danger: #f1646c;
+    --dark-blue: #28365f;
+}
+
+body{
+    height:100vh;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: #151A33;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    line-height: 1;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+nav{
+    background-color: #1a253f;
+    padding: 1rem 0;
+}
+nav .inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .inner .logo {
+    text-transform: uppercase;
+    color: #eff2f9;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+nav .inner .logo svg{
+    color: #4d79f6;
+}
+
+nav .inner button{
+    background: #2b55cc;
+    border: none;
+    padding: 0.6rem 1rem;
+    color: #eff2f9;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+section.profile{
+    background: #060b1b;
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+    margin-top: 60px;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 25% 100%, 0 80%);
+    padding-bottom: 4rem;
+}
+section.profile .left{
+    flex: 2;
+    display: flex;
+    align-items: center;
+}
+section.profile .right{
+    flex: 1;
+}
+section.profile .left h2{
+    color: #7081b9;
+    font-size: 24px;
+    font-weight:  600;
+    margin-bottom: 1rem;
+}
+
+section.profile .left p{
+    color: #8997bd;
+    font-size: 14px;
+}
+
+section.profile .left img{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+section.profile .left .avatar{
+    position: relative;
+    margin-right: 2rem;
+}
+
+section.profile .right ul.contact{
+    list-style-type: none;
+    margin-bottom: 1.6rem;
+}
+
+section.profile .right ul.contact li{
+    color: #848db3;
+    margin-bottom: 0.7rem;
+    font-size: 14px;
+}
+
+section.profile .right ul.contact li svg{
+    font-size: 18px;
+    margin-right: 0.5rem;
+}
+
+section.profile .right ul.socials {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+section.profile .right ul.socials li {
+    margin-right: 0.8rem;
+}
+
+section.profile .right ul.socials li a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    color: #eff2f9;
+    line-height: 32px;
+    text-align: center;
+}
+
+section.profile .right ul.socials li:nth-child(1) a{
+    background: #2b55cc;
+}
+section.profile .right ul.socials li:nth-child(2) a{
+    background: #4ac7ec;
+}
+section.profile .right ul.socials li:nth-child(3) a{
+    background: black;
+}
