@@ -6,12 +6,18 @@ import { AppComponent } from './app.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { GalleryComponent } from './gallery/gallery.component';
+import { ResumeComponent } from './resume/resume.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
-    routingComponents
+    routingComponents,
+    GalleryComponent,
+    ResumeComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
