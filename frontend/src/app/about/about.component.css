@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navigation bar styling */
+.navbar{
+    background-color: #e3f2fd;
+}
+#collapsebutton{
+   box-shadow: none;
+   margin: 1%;
+} 
+ul{
+    padding: 0.7%;
+}                                    
+#profile_pic{
+    width: 30px;
+    height: 30px;                                                                                                                               
+    border-radius: 25px;
+}
+#profilepic{
+    padding-right: 15px;
+} 
+
+/* footer Styling */
+footer{
+    background-color: black;
+    font-family: "Open Sans";
+    color: white;
+    position:relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.footer-copyright{
+    background-color: black;
+    word-spacing: 2px;
+    opacity: .4;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.mb-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 1rem 0;
+}
+.mb-3 a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+.mb-3 a svg{
+    font-size: 1rem;
+    transition: red .3s ease-in-out;
+}
+.mb-3 a:hover svg{
+    color: #343a40;
+}

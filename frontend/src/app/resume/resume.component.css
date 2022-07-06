@@ -6,26 +6,8 @@
     box-sizing: border-box;
 }
 
-:root{
-    --primary : #1a253f;
-    --dark : #151A33;
-    --secondary : #2b55cc;
-    --info: #4d79f6;
-    --ternary : #848db3;
-    --pure : #eff2f9;
-    --fade : #7081b9;
-    --mild : #8997bd;
-    --footer: #212A4A;
-    --black: #060b1b;
-    --twitter: #4ac7ec;
-    --dribbble:#ff5da0;
-    --success: #1ecab8;
-    --danger: #f1646c;
-    --dark-blue: #28365f;
-}
-
 body{
-    height:300vh;
+    height:350vh;
     font-family: 'IBM Plex Sans', sans-serif;
     background-color: #151A33;
     -webkit-font-smoothing: antialiased;
@@ -344,4 +326,66 @@ section.skills .skills_wrapper .skill-box .progress_wrap .progress_bar .per{
 
 section.certifiates{
     color: white;
+}
+
+section.certifiates .content .tab{
+    margin-bottom: 2.0rem;
+    margin-left: 15px;
+    position: relative;
+}
+
+section.certifiates .content .tab h6{
+    font-size: 16px;
+    margin-top: 0.5rem;
+    color: #8997bd;
+    line-height: 1.7;
+}
+
+section.certifiates .content .tab h6:after{
+    content: ' :-';
+    position: relative;
+}
+
+section.certifiates .content .tab p{
+    font-size: 14px;
+    color: #848db3;
+    line-height: 1.7;
+    margin-left: 25px;
+}
+
+section.certifiates .content .tab p:before{
+    content: '- ';
+    position: relative;
+}
+
+section.positionofresp .content  p{
+    font-size: 14px;
+    color: #848db3;
+    line-height: 1.7;
+}
+
+section.positionofresp .content p.center{
+    color: #7081b9;
+}
+
+section.positionofresp .content .item{
+    margin-bottom: 2.6rem;
+    margin-left: 15px;
+    position: relative;
+}
+
+section.positionofresp  .content .timeline_wrapper{
+    border-left: 2px dotted #28365f;
+}
+
+section.positionofresp .content .item:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #4d79f6;
+    border-radius: 50%;
+    margin-left: -21px;
 }

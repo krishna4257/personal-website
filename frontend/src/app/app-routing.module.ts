@@ -10,7 +10,7 @@ const routes: Routes = [
   {path:'gallery', component:GalleryComponent},
   {path:'resume', component:ResumeComponent},
   {path:'about', component:AboutComponent},
-  {path:'', redirectTo: 'resume', pathMatch:'full'}
+  {path:'', redirectTo: 'about', pathMatch:'full'}
 ];
 
 @NgModule({
